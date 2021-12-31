@@ -36,7 +36,7 @@ let aluno5 = new Aluno("Julia", 2, [5, 5, 7, 6, 5]);
 
 
 //Acessando as propriedades do objeto curso que está dentro da pasta curso no arquivo index.js
-console.log(curso);
+
 
 //Método adicionar alunos ao curso
 curso.curso.adcionarEstudante(aluno1); 
@@ -44,41 +44,41 @@ curso.curso.adcionarEstudante(aluno2);
 curso.curso.adcionarEstudante(aluno3);
 curso.curso.adcionarEstudante(aluno4);
 curso.curso.adcionarEstudante(aluno5);
-/*
 
-//Acessando a Lista de alunos matriculados no curso
-console.log(curso.curso.listaAlunos);
+//console.log(curso);
+//acessando a Lista de alunos matriculados no curso
+//console.log(curso.curso.listaAlunos);
 
 
 //Invocando o método faltou obs:o console.log já está dentro da função 
-aluno1.faltou();
-aluno2.faltou();
+//aluno1.faltou();
+//aluno2.faltou();
 
 
-console.log(aluno2.nome);
-console.log(aluno1.nome);
+//console.log(aluno2.nome);
+//console.log(aluno1.nome);
 
-console.log(aluno2.quantidadeFaltas);
-console.log(aluno1.quantidadeFaltas);
+//console.log(aluno2.quantidadeFaltas);
+//console.log(aluno1.quantidadeFaltas);
 
-console.log(aluno2.notas);
-console.log(aluno1.notas);
+//console.log(aluno2.notas);
+//console.log(aluno1.notas);
 
 //Invocando o método calcularMedia obs:o console.log está dentro da função
 aluno1.calcularMedia();
 aluno2.calcularMedia();
-
-
-
+aluno3.calcularMedia();
+aluno4.calcularMedia();
+aluno5.calcularMedia();
 //Acessando o resultado dos alunos, aprovado ou reprovado
-//curso.curso.resultado(aluno1);
-//curso.curso.resultado(aluno2);
+curso.curso.resultado(aluno1);
+curso.curso.resultado(aluno2);
 
 
-*/
 
 
-curso.curso.listaResultado();
+
+//curso.curso.listaResultado();
 
 
 
